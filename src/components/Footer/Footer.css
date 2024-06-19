@@ -1,0 +1,208 @@
+div.footer {
+	background-color: #f7fafc;
+}
+
+div.footer > div.contents > div.content_1,
+div.footer > div.contents > div.content_2 {
+	background-color: transparent;
+	padding: 40px 0;
+}
+
+div.footer > div.contents > div.content_1 > img {
+	margin-right: 40px;
+	cursor: pointer;
+}
+
+div.footer > div.contents > div.content_1 > div.nav > a.nav-link {
+	padding-left: 0;
+}
+
+div.footer > div.contents > div.content_1 > div.nav > a.nav-link > div.parent {
+	width: 45px;
+	height: 45px;
+	background-color: #d3d3d3;
+}
+
+div.footer
+	> div.contents
+	> div.content_1
+	> div.nav
+	> a.nav-link
+	> div.parent:hover
+	> div.child
+	> div.child {
+	background-color: #566075;
+	transition: all 0.2s ease-in-out !important;
+}
+
+div.footer
+	> div.contents
+	> div.content_1
+	> div.nav
+	> a.nav-link
+	> div.parent
+	> div.child {
+	width: 38.84px;
+	height: 38.84px;
+	background-color: #fff;
+}
+
+div.footer
+	> div.contents
+	> div.content_1
+	> div.nav
+	> a.nav-link
+	> div.parent
+	> div.child
+	> div.child {
+	width: 32.62px;
+	height: 32.62px;
+	background-color: #000;
+	transition: all 0.2s ease-in-out !important;
+}
+
+div.footer > div.contents > div.content_2 {
+	gap: 200px;
+}
+
+div.footer > div.contents > div.content_2 > ul > li > a {
+	color: #1a202c;
+	font-size: 14px;
+	font-family: popmed;
+}
+
+div.footer > div.contents > div.content_2 > ul > li:nth-of-type(1) > a {
+	color: #4a5568;
+	font-family: popbol;
+}
+
+div.footer > div.contents > div.content_2 > div.subscribe > h5 {
+	color: #4a5568;
+	font-size: 14px;
+	font-family: popbol;
+}
+
+div.footer > div.contents > div.content_2 > div.subscribe > form {
+	width: fit-content;
+}
+
+div.footer > div.contents > div.content_2 > div.subscribe > form > div > input {
+	width: 365px;
+	height: 50px;
+	background-color: #edf2f7;
+	border: none;
+	border-radius: 50px;
+	outline: none;
+	font-size: 14px;
+	font-family: popmed;
+	box-shadow: none;
+}
+
+div.footer > div.contents > div.content_2 > div.subscribe > form > img {
+	position: absolute;
+	right: 25px;
+	top: calc(100% - 50px);
+	cursor: pointer;
+}
+
+div.footer > div.contents > div.content_2 > div.subscribe > p {
+	width: 70%;
+	color: var(--color_1) !important;
+	font-size: 14px !important;
+	font-family: popmed;
+}
+
+div.footer
+	> div.contents
+	> div.content_2
+	> div.subscribe
+	> form
+	> div
+	> input::placeholder {
+	color: #bcc1dd;
+	font-size: 14px;
+	font-family: popmed;
+	text-transform: capitalize;
+}
+
+div.creator {
+	height: 72px;
+	background-color: #2a4365;
+}
+
+div.creator > p {
+	color: #fff;
+	font-size: 16px;
+	font-family: popsembol;
+}
+
+div.creator > button {
+	width: 50px;
+	height: 50px;
+	background-color: #3182ce !important;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	box-shadow: none;
+	position: absolute;
+	right: 40px;
+	top: -25px;
+	transition: all 0.2s ease-in-out !important;
+}
+
+div.creator > button:active,
+div.creator > button:hover {
+	background-color: #7085a0 !important;
+	transition: all 0.2s ease-in-out !important;
+}
+
+@media screen and (max-width: 1551px) {
+	div.footer > div.contents > div.content_2 {
+		gap: 80px !important;
+		justify-content: center !important;
+	}
+}
+
+@media screen and (max-width: 1191px) and (min-width: 375px) {
+	div.footer > div.contents > div.content_1 {
+		justify-content: center !important;
+	}
+
+	div.footer
+		> div.contents
+		> div.content_2
+		> div.subscribe
+		> form
+		> div
+		> input {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	div.creator > p {
+		font-size: 12px;
+	}
+
+	div.creator > button {
+		right: 10px;
+		top: -60px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	div.footer > div.contents > div.content_2 {
+		justify-content: start !important;
+		gap: 70px !important;
+	}
+
+	div.footer
+		> div.contents
+		> div.content_2
+		> div.subscribe
+		> form
+		> div
+		> input {
+		width: 100%;
+	}
+}

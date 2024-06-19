@@ -1,0 +1,65 @@
+@font-face {
+	font-family: "PopReg";
+	src: url("./font/eot/Poppins-Regular.eot");
+	src: local("Poppins-Regular"),
+		url("./font/eot/Poppins-Regular.eot?#iefix") format("embedded-opentype"),
+		url("./font/woff2/Poppins-Regular.woff2") format("woff2"),
+		url("./font/woff/Poppins-Regular.woff") format("woff"),
+		url("./font/ttf/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Popmed";
+	src: url("./font/eot/Poppins-Medium.eot");
+	src: local("Poppins-Medium"),
+		url("./font/eot/Poppins-Medium.eot?#iefix") format("embedded-opentype"),
+		url("./font/woff2/Poppins-Medium.woff2") format("woff2"),
+		url("./font/woff/Poppins-Medium.woff") format("woff"),
+		url("./font/ttf/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Popsembol";
+	src: url("./font/eot/Poppins-SemiBold.eot");
+	src: local("Poppins-SemiBold"),
+		url("./font/eot/Poppins-SemiBold.eot?#iefix") format("embedded-opentype"),
+		url("./font/woff2/Poppins-SemiBold.woff2") format("woff2"),
+		url("./font/woff/Poppins-SemiBold.woff") format("woff"),
+		url("./font/ttf/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Popbol";
+	src: url("./font/eot/Poppins-Bold.eot");
+	src: local("Poppins-Bold"),
+		url("./font/eot/Poppins-Bold.eot?#iefix") format("embedded-opentype"),
+		url("./font/woff2/Poppins-Bold.woff2") format("woff2"),
+		url("./font/woff/Poppins-Bold.woff") format("woff"),
+		url("./font/ttf/Poppins-Bold.ttf") format("truetype");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none !important;
+	box-sizing: border-box;
+}
+
+:root {
+	--color_1: #1a202c;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 #02829981;
+	}
+
+	70% {
+		box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+	}
+
+	100% {
+		box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+	}
+}

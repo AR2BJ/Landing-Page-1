@@ -1,0 +1,277 @@
+div.content_1 {
+	background-color: #c5e6f9;
+	padding: 100px 80px;
+}
+
+div.content_3 {
+	background-color: #f7fafc;
+	padding: 100px 0;
+}
+
+div.content_1 > h2.title_1,
+div.content_2 > div.item_1 > h2.title_2,
+div.content_3 > div.item_1 > h2.title_3,
+div.content_5 > div.item_1 > h2,
+div.content_7 > div.item_1 > h2 {
+	color: #1a202c !important;
+	font-size: 48px;
+	font-family: popbol;
+	line-height: 1.4;
+}
+
+div.content_1 > p.des_1 {
+	color: #4a5568 !important;
+	font-size: 24px;
+	font-family: popmed;
+}
+
+div.content_1 > div.btn > button.btn_1_content_1 {
+	width: 180px;
+	height: 56px;
+	color: #fff;
+	background: linear-gradient(to right, #0067f4, #2bdbdc);
+	background-size: 100% auto;
+	border-radius: 50px;
+	font-size: 18px;
+	font-family: popsembol;
+	line-height: 2.6;
+	cursor: pointer;
+}
+
+div.content_1 > div.btn > button.btn_2_content_1 {
+	width: 250px;
+	height: 56px;
+	color: #3182ce;
+	background-color: #fff;
+	border-radius: 50px;
+	font-size: 18px;
+	font-family: popsembol;
+	line-height: 2.6;
+	cursor: pointer;
+}
+
+div.content_1 > div.btn > button.btn_1_content_1:hover {
+	background-size: 200% auto;
+	animation: pulse 1.5s infinite;
+}
+
+div.content_1 > div.btn > button.btn_2_content_1:hover > span {
+	text-decoration: underline;
+}
+
+div.content_2 > div.item_1 > p.des_2,
+div.content_3 > div.item_1 > p.des_3,
+div.content_5 > div.item_1 > p,
+div.content_7 > div.item_1 > p {
+	color: #4a5568 !important;
+	font-size: 16px;
+	font-family: popmed;
+	line-height: 1.7;
+}
+
+div.content_2 > div.item_1 > h2.title_2,
+div.content_2 > div.item_1 > p.des_2 {
+	padding-left: 12%;
+}
+
+div.content_4 > div.item_1 {
+	height: 505px;
+}
+
+div.content_4 > div.item_2 {
+	height: 505px;
+	background-color: #3182ce;
+}
+
+div.content_4 > div.item_2 > h2 {
+	color: #fff;
+	font-size: 48px;
+	font-family: popsembol;
+	line-height: 1.4;
+}
+
+div.content_4 > div.item_2 > p {
+	color: #fff;
+	font-size: 16px;
+	font-family: popsembol;
+	line-height: 1.4;
+}
+
+div.content_4 > div.item_2 > form > div.input-group > span.input-group-text {
+	background-color: #fff;
+	border: none;
+	border-radius: 50px;
+	padding: 0 0.2rem 0 1.5rem;
+}
+
+div.content_4 > div.item_2 > form > div.input-group > input {
+	width: 440px;
+	height: 70px;
+	border: none;
+	outline: none;
+	box-shadow: none;
+	border-radius: 50px;
+	font-size: 14px;
+	font-family: popmed;
+	line-height: 1.4;
+}
+
+div.content_4 > div.item_2 > form > div.input-group > input::placeholder {
+	color: #a1a1a1;
+	font-size: 14px;
+	font-family: popmed;
+	line-height: 1.4;
+}
+
+div.content_4 > div.item_2 > form > button {
+	width: 180px;
+	height: 56px;
+	background-color: #3182ce;
+	border: none;
+	border-radius: 50px;
+	color: #fff;
+	font-size: 18px;
+	font-family: popbol;
+	line-height: 1.4;
+	position: absolute;
+	right: 10px;
+	top: calc(100% - 35px);
+	transform: translateY(-50%);
+	transition: all 0.2s ease-in-out;
+	z-index: 10;
+}
+
+div.content_4 > div.item_2 > form > button:hover {
+	background-color: #266aaa;
+	transition: all 0.2s ease-in-out;
+}
+
+div.content_6 {
+	height: fit-content;
+	background-color: #f7fafc;
+}
+
+div.content_6 > img {
+	height: 130px;
+	margin: 17px 20px;
+}
+
+div.content_7 > div.item_2 > form > div.row > div.col > input {
+	width: 380px;
+	height: 50px;
+	border: 1px solid #e2e8f0;
+	border-radius: 4px;
+	outline: none;
+	box-shadow: none;
+	font-size: 14px;
+	font-family: popmed;
+	line-height: 1.4;
+}
+
+div.content_7 > div.item_2 > form > div.textarea > textarea {
+	border: 1px solid #e2e8f0;
+	border-radius: 4px;
+	outline: none;
+	box-shadow: none;
+	font-size: 14px;
+	font-family: popmed;
+	line-height: 1.4;
+	resize: none;
+}
+
+div.content_7 > div.item_2 > form > div.row > div.col:nth-child(odd) {
+	margin-right: 10px;
+}
+
+div.content_7 > div.item_2 > form > div.textarea > textarea::placeholder,
+div.content_7 > div.item_2 > form > div.row > div.col > input::placeholder {
+	color: #93a2b7;
+	font-size: 14px;
+	font-family: popmed;
+	line-height: 1.4;
+}
+
+div.content_7 > div.item_2 > form > button {
+	width: 180px;
+	height: 56px;
+	color: #fff;
+	background: linear-gradient(to right, #0067f4, #2bdbdc);
+	background-size: 100% auto;
+	border-radius: 50px;
+	font-size: 18px;
+	font-family: popsembol;
+	line-height: 2.6;
+	cursor: pointer;
+}
+
+div.content_7 > div.item_2 > form > button:hover {
+	background-size: 200% auto;
+	animation: pulse 1.5s infinite;
+}
+
+@media screen and (max-width: 889px) {
+	div.content_7 > div.item_2 > form > div.row {
+		width: 100%;
+	}
+
+	div.content_7 > div.item_2 > form > div.row > div.col {
+		flex: unset;
+		padding: 0;
+		margin-right: 0 !important;
+	}
+
+	div.content_7 > div.item_2 > form > div.row > div.col > input {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 592px) {
+	div.content_4 > div.item_1 {
+		height: auto;
+	}
+
+	div.content_4 > div.item_2 {
+		height: auto;
+	}
+
+	div.content_4 > div.item_2 > form > div.input-group > input {
+		width: 60%;
+		height: 12dvw;
+		font-size: 3dvw;
+	}
+
+	div.content_4 > div.item_2 > form > div.input-group > input::placeholder {
+		font-size: 3dvw;
+	}
+
+	div.content_4 > div.item_2 > form > div.input-group > span.input-group-text {
+		padding-left: 5dvw;
+	}
+
+	div.content_4
+		> div.item_2
+		> form
+		> div.input-group
+		> span.input-group-text
+		> img {
+		width: 5.5dvw;
+		height: 5.5dvw;
+	}
+
+	div.content_4 > div.item_2 > form > button {
+		width: 90dvw;
+		height: 12dvw;
+		position: relative;
+		color: #fff;
+		background-color: #27b6b6;
+		font-size: 4dvw;
+		bottom: 0;
+		top: 10dvw;
+		left: calc(100% - 90dvw);
+	}
+
+	div.content_4 > div.item_2 > form > button:hover {
+		color: #3182ce;
+		background-color: #fff;
+	}
+}
