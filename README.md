@@ -11,6 +11,6 @@ Currently, two official plugins are available:
 
 ![Fullpage](./src/img/Fullpage.png)
 
-[Figma Template](https://www.figma.com/design/rd3H7jYohYio1urpW44ydF/Landing-Page-Template-(Community)?node-id=2-2&viewport=80%252C-1953%252C0.56&t=sAz8XOeasgDXTGhq-0)
+[Figma Template](https://www.figma.com/community/file/1128898665814341664)
 
 [Preview](https://ar2bj.github.io/Landing-Page-1/)
